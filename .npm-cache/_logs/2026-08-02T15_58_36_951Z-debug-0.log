@@ -1,0 +1,350 @@
+0 verbose cli D:\NVM\nodejs\node.exe D:\NVM\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:D:\NVM\nodejs\node_modules\npm\npmrc
+4 silly config load:file:E:\chazhendataset2\gamefeature\.npmrc
+5 silly config load:file:C:\Users\ty\.npmrc
+6 silly config load:file:C:\Users\ty\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install umap-js
+8 verbose argv "install" "umap-js" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:E:\chazhendataset2\gamefeature\.npm-cache\_logs\2026-08-02T15_58_36_951Z-
+10 verbose logfile E:\chazhendataset2\gamefeature\.npm-cache\_logs\2026-08-02T15_58_36_951Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 silly fetch manifest umap-js@*
+15 silly packumentCache full:https://registry.npmjs.org/umap-js cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/umap-js 1103ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/umap-js set size:undefined disposed:false
+18 silly placeDep ROOT umap-js@1.4.0 OK for:  want: *
+19 silly fetch manifest ml-levenberg-marquardt@^2.0.0
+20 silly packumentCache full:https://registry.npmjs.org/ml-levenberg-marquardt cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/ml-levenberg-marquardt 413ms (cache miss)
+22 silly packumentCache full:https://registry.npmjs.org/ml-levenberg-marquardt set size:undefined disposed:false
+23 silly placeDep ROOT ml-levenberg-marquardt@2.1.1 OK for: umap-js@1.4.0 want: ^2.0.0
+24 silly fetch manifest ml-matrix@^6.4.1
+25 silly packumentCache full:https://registry.npmjs.org/ml-matrix cache-miss
+26 silly fetch manifest is-any-array@^0.1.0
+27 silly packumentCache full:https://registry.npmjs.org/is-any-array cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/ml-matrix 619ms (cache miss)
+29 silly packumentCache full:https://registry.npmjs.org/ml-matrix set size:undefined disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/is-any-array 950ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/is-any-array set size:undefined disposed:false
+32 silly placeDep ROOT is-any-array@0.1.1 OK for: ml-levenberg-marquardt@2.1.1 want: ^0.1.0
+33 silly placeDep ROOT ml-matrix@6.14.0 OK for: ml-levenberg-marquardt@2.1.1 want: ^6.4.1
+34 silly fetch manifest is-any-array@^3.0.0
+35 silly packumentCache full:https://registry.npmjs.org/is-any-array cache-miss
+36 silly fetch manifest ml-array-rescale@^2.0.0
+37 silly packumentCache full:https://registry.npmjs.org/ml-array-rescale cache-miss
+38 http cache https://registry.npmjs.org/is-any-array 16ms (cache hit)
+39 silly packumentCache full:https://registry.npmjs.org/is-any-array set size:28024 disposed:false
+40 http fetch GET 200 https://registry.npmjs.org/ml-array-rescale 401ms (cache miss)
+41 silly packumentCache full:https://registry.npmjs.org/ml-array-rescale set size:undefined disposed:false
+42 silly placeDep node_modules/ml-matrix is-any-array@3.0.0 OK for: ml-matrix@6.14.0 want: ^3.0.0
+43 silly placeDep ROOT ml-array-rescale@2.0.0 OK for: ml-matrix@6.14.0 want: ^2.0.0
+44 silly fetch manifest ml-array-max@^2.0.0
+45 silly packumentCache full:https://registry.npmjs.org/ml-array-max cache-miss
+46 silly fetch manifest ml-array-min@^2.0.0
+47 silly packumentCache full:https://registry.npmjs.org/ml-array-min cache-miss
+48 http fetch GET 200 https://registry.npmjs.org/ml-array-max 334ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/ml-array-max set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/ml-array-min 394ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/ml-array-min set size:undefined disposed:false
+52 silly placeDep node_modules/ml-array-rescale is-any-array@3.0.0 OK for: ml-array-rescale@2.0.0 want: ^3.0.0
+53 silly placeDep ROOT ml-array-max@2.0.0 OK for: ml-array-rescale@2.0.0 want: ^2.0.0
+54 silly placeDep ROOT ml-array-min@2.0.0 OK for: ml-array-rescale@2.0.0 want: ^2.0.0
+55 silly placeDep node_modules/ml-array-max is-any-array@3.0.0 OK for: ml-array-max@2.0.0 want: ^3.0.0
+56 silly placeDep node_modules/ml-array-min is-any-array@3.0.0 OK for: ml-array-min@2.0.0 want: ^3.0.0
+57 silly reify moves {}
+58 silly audit bulk request {
+58 silly audit   '@emnapi/core': [ '1.11.1' ],
+58 silly audit   '@emnapi/runtime': [ '1.11.1' ],
+58 silly audit   '@emnapi/wasi-threads': [ '1.2.2' ],
+58 silly audit   '@napi-rs/wasm-runtime': [ '1.1.6' ],
+58 silly audit   '@oxc-project/types': [ '0.138.0' ],
+58 silly audit   '@rolldown/binding-android-arm64': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-darwin-arm64': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-darwin-x64': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-freebsd-x64': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.1.4' ],
+58 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.1.4' ],
+58 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+58 silly audit   '@tybys/wasm-util': [ '0.10.3' ],
+58 silly audit   '@vitejs/plugin-react': [ '6.0.3' ],
+58 silly audit   'detect-libc': [ '2.1.2' ],
+58 silly audit   fdir: [ '6.5.0' ],
+58 silly audit   fsevents: [ '2.3.3' ],
+58 silly audit   lightningcss: [ '1.32.0' ],
+58 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+58 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+58 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+58 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+58 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+58 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+58 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+58 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+58 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+58 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+58 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+58 silly audit   nanoid: [ '3.3.15' ],
+58 silly audit   picocolors: [ '1.1.1' ],
+58 silly audit   picomatch: [ '4.0.5' ],
+58 silly audit   postcss: [ '8.5.16' ],
+58 silly audit   react: [ '19.2.7' ],
+58 silly audit   'react-dom': [ '19.2.7' ],
+58 silly audit   rolldown: [ '1.1.4' ],
+58 silly audit   scheduler: [ '0.27.0' ],
+58 silly audit   'source-map-js': [ '1.2.1' ],
+58 silly audit   tinyglobby: [ '0.2.17' ],
+58 silly audit   tslib: [ '2.8.1' ],
+58 silly audit   vite: [ '8.1.3' ],
+58 silly audit   'umap-js': [ '1.4.0' ],
+58 silly audit   'ml-levenberg-marquardt': [ '2.1.1' ],
+58 silly audit   'is-any-array': [ '0.1.1', '3.0.0' ],
+58 silly audit   'ml-matrix': [ '6.14.0' ],
+58 silly audit   'ml-array-rescale': [ '2.0.0' ],
+58 silly audit   'ml-array-max': [ '2.0.0' ],
+58 silly audit   'ml-array-min': [ '2.0.0' ]
+58 silly audit }
+59 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-win32-arm64-msvc
+60 silly reify mark deleted [
+60 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-win32-arm64-msvc'
+60 silly reify ]
+61 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-x64-musl
+62 silly reify mark deleted [
+62 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-x64-musl'
+62 silly reify ]
+63 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-x64-gnu
+64 silly reify mark deleted [
+64 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-x64-gnu'
+64 silly reify ]
+65 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-arm64-musl
+66 silly reify mark deleted [
+66 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-arm64-musl'
+66 silly reify ]
+67 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-arm64-gnu
+68 silly reify mark deleted [
+68 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-arm64-gnu'
+68 silly reify ]
+69 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-arm-gnueabihf
+70 silly reify mark deleted [
+70 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-arm-gnueabihf'
+70 silly reify ]
+71 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-freebsd-x64
+72 silly reify mark deleted [
+72 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-freebsd-x64'
+72 silly reify ]
+73 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-darwin-x64
+74 silly reify mark deleted [
+74 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-darwin-x64'
+74 silly reify ]
+75 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-darwin-arm64
+76 silly reify mark deleted [
+76 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-darwin-arm64'
+76 silly reify ]
+77 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-android-arm64
+78 silly reify mark deleted [
+78 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-android-arm64'
+78 silly reify ]
+79 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\fsevents
+80 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\fsevents' ]
+81 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-win32-arm64-msvc
+82 silly reify mark deleted [
+82 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-win32-arm64-msvc'
+82 silly reify ]
+83 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-wasm32-wasi
+84 silly reify mark deleted [
+84 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-wasm32-wasi'
+84 silly reify ]
+85 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\core
+86 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\core' ]
+87 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\runtime
+88 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\runtime' ]
+89 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@napi-rs\wasm-runtime
+90 silly reify mark deleted [
+90 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@napi-rs\\wasm-runtime'
+90 silly reify ]
+91 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\wasi-threads
+92 silly reify mark deleted [
+92 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\wasi-threads'
+92 silly reify ]
+93 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\tslib
+94 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\tslib' ]
+95 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@tybys\wasm-util
+96 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@tybys\\wasm-util' ]
+97 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-openharmony-arm64
+98 silly reify mark deleted [
+98 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-openharmony-arm64'
+98 silly reify ]
+99 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-x64-musl
+100 silly reify mark deleted [
+100 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-x64-musl'
+100 silly reify ]
+101 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-x64-gnu
+102 silly reify mark deleted [
+102 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-x64-gnu'
+102 silly reify ]
+103 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-s390x-gnu
+104 silly reify mark deleted [
+104 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-s390x-gnu'
+104 silly reify ]
+105 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-ppc64-gnu
+106 silly reify mark deleted [
+106 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-ppc64-gnu'
+106 silly reify ]
+107 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-arm64-musl
+108 silly reify mark deleted [
+108 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-arm64-musl'
+108 silly reify ]
+109 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-arm64-gnu
+110 silly reify mark deleted [
+110 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-arm64-gnu'
+110 silly reify ]
+111 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-arm-gnueabihf
+112 silly reify mark deleted [
+112 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-arm-gnueabihf'
+112 silly reify ]
+113 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-freebsd-x64
+114 silly reify mark deleted [
+114 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-freebsd-x64'
+114 silly reify ]
+115 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-darwin-x64
+116 silly reify mark deleted [
+116 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-darwin-x64'
+116 silly reify ]
+117 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-darwin-arm64
+118 silly reify mark deleted [
+118 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-darwin-arm64'
+118 silly reify ]
+119 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-android-arm64
+120 silly reify mark deleted [
+120 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-android-arm64'
+120 silly reify ]
+121 http cache ml-array-max@https://registry.npmjs.org/ml-array-max/-/ml-array-max-2.0.0.tgz 0ms (cache hit)
+122 http cache ml-array-min@https://registry.npmjs.org/ml-array-min/-/ml-array-min-2.0.0.tgz 0ms (cache hit)
+123 http cache ml-matrix@https://registry.npmjs.org/ml-matrix/-/ml-matrix-6.14.0.tgz 0ms (cache hit)
+124 http cache ml-array-rescale@https://registry.npmjs.org/ml-array-rescale/-/ml-array-rescale-2.0.0.tgz 0ms (cache hit)
+125 http cache @tybys/wasm-util@https://registry.npmmirror.com/@tybys/wasm-util/-/wasm-util-0.10.3.tgz 0ms (cache hit)
+126 http cache is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-0.1.1.tgz 0ms (cache hit)
+127 http cache @emnapi/runtime@https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.1.tgz 0ms (cache hit)
+128 http cache @napi-rs/wasm-runtime@https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.6.tgz 0ms (cache hit)
+129 http cache umap-js@https://registry.npmjs.org/umap-js/-/umap-js-1.4.0.tgz 0ms (cache hit)
+130 http cache ml-levenberg-marquardt@https://registry.npmjs.org/ml-levenberg-marquardt/-/ml-levenberg-marquardt-2.1.1.tgz 0ms (cache hit)
+131 http cache @emnapi/wasi-threads@https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.2.2.tgz 0ms (cache hit)
+132 http cache @emnapi/core@https://registry.npmmirror.com/@emnapi/core/-/core-1.11.1.tgz 0ms (cache hit)
+133 http cache tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+134 http cache is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz 0ms (cache hit)
+135 http cache is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz 0ms (cache hit)
+136 silly tarball no local data for ml-array-max@https://registry.npmjs.org/ml-array-max/-/ml-array-max-2.0.0.tgz. Extracting by manifest.
+137 http cache is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz 0ms (cache hit)
+138 http cache is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz 0ms (cache hit)
+139 silly tarball no local data for ml-array-min@https://registry.npmjs.org/ml-array-min/-/ml-array-min-2.0.0.tgz. Extracting by manifest.
+140 silly tarball no local data for ml-matrix@https://registry.npmjs.org/ml-matrix/-/ml-matrix-6.14.0.tgz. Extracting by manifest.
+141 silly tarball no local data for ml-array-rescale@https://registry.npmjs.org/ml-array-rescale/-/ml-array-rescale-2.0.0.tgz. Extracting by manifest.
+142 silly tarball no local data for @tybys/wasm-util@https://registry.npmmirror.com/@tybys/wasm-util/-/wasm-util-0.10.3.tgz. Extracting by manifest.
+143 silly tarball no local data for is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-0.1.1.tgz. Extracting by manifest.
+144 silly tarball no local data for @emnapi/runtime@https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.1.tgz. Extracting by manifest.
+145 silly tarball no local data for @napi-rs/wasm-runtime@https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.6.tgz. Extracting by manifest.
+146 silly tarball no local data for umap-js@https://registry.npmjs.org/umap-js/-/umap-js-1.4.0.tgz. Extracting by manifest.
+147 silly tarball no local data for ml-levenberg-marquardt@https://registry.npmjs.org/ml-levenberg-marquardt/-/ml-levenberg-marquardt-2.1.1.tgz. Extracting by manifest.
+148 silly tarball no local data for @emnapi/wasi-threads@https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.2.2.tgz. Extracting by manifest.
+149 silly tarball no local data for @emnapi/core@https://registry.npmmirror.com/@emnapi/core/-/core-1.11.1.tgz. Extracting by manifest.
+150 silly tarball no local data for tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+151 silly tarball no local data for is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz. Extracting by manifest.
+152 silly tarball no local data for is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz. Extracting by manifest.
+153 silly tarball no local data for is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz. Extracting by manifest.
+154 silly tarball no local data for is-any-array@https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz. Extracting by manifest.
+155 http fetch GET 200 https://registry.npmjs.org/ml-array-max/-/ml-array-max-2.0.0.tgz 194ms (cache miss)
+156 http fetch GET 200 https://cdn.npmmirror.com/packages/tslib/2.8.1/tslib-2.8.1.tgz 261ms (cache miss)
+157 http fetch GET 200 https://cdn.npmmirror.com/packages/%40emnapi/wasi-threads/1.2.2/wasi-threads-1.2.2.tgz 300ms (cache miss)
+158 http fetch GET 200 https://cdn.npmmirror.com/packages/%40emnapi/runtime/1.11.1/runtime-1.11.1.tgz 315ms (cache miss)
+159 http fetch GET 200 https://cdn.npmmirror.com/packages/%40napi-rs/wasm-runtime/1.1.6/wasm-runtime-1.1.6.tgz 370ms (cache miss)
+160 http fetch GET 200 https://cdn.npmmirror.com/packages/%40emnapi/core/1.11.1/core-1.11.1.tgz 402ms (cache miss)
+161 http fetch GET 200 https://cdn.npmmirror.com/packages/%40tybys/wasm-util/0.10.3/wasm-util-0.10.3.tgz 418ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/is-any-array/-/is-any-array-0.1.1.tgz 623ms (cache miss)
+163 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 671ms
+164 silly audit report {
+164 silly audit report   postcss: [
+164 silly audit report     {
+164 silly audit report       id: 1124288,
+164 silly audit report       url: 'https://github.com/advisories/GHSA-r28c-9q8g-f849',
+164 silly audit report       title: 'PostCSS: Path Traversal in Previous Source Map Auto-Loading (sourceMappingURL) leads to Arbitrary .map File Disclosure',
+164 silly audit report       severity: 'high',
+164 silly audit report       vulnerable_versions: '<=8.5.17',
+164 silly audit report       cwe: [Array],
+164 silly audit report       cvss: [Object]
+164 silly audit report     }
+164 silly audit report   ]
+164 silly audit report }
+165 silly packumentCache corgi:https://registry.npmjs.org/postcss cache-miss
+166 http fetch GET 200 https://registry.npmjs.org/ml-levenberg-marquardt/-/ml-levenberg-marquardt-2.1.1.tgz 680ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz 690ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz 869ms (cache miss)
+169 http fetch GET 200 https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz 1208ms (cache miss)
+170 http fetch GET 200 https://registry.npmjs.org/ml-array-rescale/-/ml-array-rescale-2.0.0.tgz 1257ms (cache miss)
+171 http fetch GET 200 https://registry.npmjs.org/ml-array-min/-/ml-array-min-2.0.0.tgz 1470ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/ml-matrix/-/ml-matrix-6.14.0.tgz 1868ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/postcss 1245ms (cache miss)
+174 silly packumentCache corgi:https://registry.npmjs.org/postcss set size:undefined disposed:false
+175 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+176 http fetch GET 200 https://registry.npmjs.org/is-any-array/-/is-any-array-3.0.0.tgz 2075ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/umap-js/-/umap-js-1.4.0.tgz 2536ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/vite 5246ms (cache miss)
+179 silly packumentCache corgi:https://registry.npmjs.org/vite set size:undefined disposed:false
+180 silly ADD node_modules/ml-array-min
+181 silly ADD node_modules/ml-array-min/node_modules/is-any-array
+182 silly ADD node_modules/ml-array-max
+183 silly ADD node_modules/ml-array-max/node_modules/is-any-array
+184 silly ADD node_modules/ml-array-rescale
+185 silly ADD node_modules/ml-array-rescale/node_modules/is-any-array
+186 silly ADD node_modules/ml-matrix
+187 silly ADD node_modules/ml-matrix/node_modules/is-any-array
+188 silly ADD node_modules/is-any-array
+189 silly ADD node_modules/ml-levenberg-marquardt
+190 silly ADD node_modules/umap-js
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD
+215 silly ADD
+216 silly ADD
+217 silly ADD
+218 silly ADD
+219 silly ADD
+220 silly ADD
+221 silly ADD
+222 verbose cwd E:\chazhendataset2\gamefeature
+223 verbose os Windows_NT 10.0.26200
+224 verbose node v22.16.0
+225 verbose npm  v10.9.2
+226 verbose exit 0
+227 info ok

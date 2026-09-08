@@ -1,0 +1,386 @@
+0 verbose cli D:\NVM\nodejs\node.exe D:\NVM\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.16.0
+3 silly config load:file:D:\NVM\nodejs\node_modules\npm\npmrc
+4 silly config load:file:E:\chazhendataset2\gamefeature\.npmrc
+5 silly config load:file:C:\Users\ty\.npmrc
+6 silly config load:file:C:\Users\ty\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:E:\chazhendataset2\gamefeature\.npm-cache\_logs\2026-07-23T07_38_09_257Z-
+10 verbose logfile E:\chazhendataset2\gamefeature\.npm-cache\_logs\2026-07-23T07_38_09_257Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly idealTree buildDeps
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with EACCES
+16 silly reify moves {}
+17 silly audit bulk request {
+17 silly audit   '@emnapi/core': [ '1.11.1' ],
+17 silly audit   '@emnapi/runtime': [ '1.11.1' ],
+17 silly audit   '@emnapi/wasi-threads': [ '1.2.2' ],
+17 silly audit   '@napi-rs/wasm-runtime': [ '1.1.6' ],
+17 silly audit   '@oxc-project/types': [ '0.138.0' ],
+17 silly audit   '@rolldown/binding-android-arm64': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-darwin-arm64': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-darwin-x64': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-freebsd-x64': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-linux-arm-gnueabihf': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-linux-arm64-gnu': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-linux-arm64-musl': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-linux-ppc64-gnu': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-linux-s390x-gnu': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-linux-x64-gnu': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-linux-x64-musl': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-openharmony-arm64': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-wasm32-wasi': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-win32-arm64-msvc': [ '1.1.4' ],
+17 silly audit   '@rolldown/binding-win32-x64-msvc': [ '1.1.4' ],
+17 silly audit   '@rolldown/pluginutils': [ '1.0.1' ],
+17 silly audit   '@tybys/wasm-util': [ '0.10.3' ],
+17 silly audit   '@vitejs/plugin-react': [ '6.0.3' ],
+17 silly audit   'detect-libc': [ '2.1.2' ],
+17 silly audit   fdir: [ '6.5.0' ],
+17 silly audit   fsevents: [ '2.3.3' ],
+17 silly audit   lightningcss: [ '1.32.0' ],
+17 silly audit   'lightningcss-android-arm64': [ '1.32.0' ],
+17 silly audit   'lightningcss-darwin-arm64': [ '1.32.0' ],
+17 silly audit   'lightningcss-darwin-x64': [ '1.32.0' ],
+17 silly audit   'lightningcss-freebsd-x64': [ '1.32.0' ],
+17 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.32.0' ],
+17 silly audit   'lightningcss-linux-arm64-gnu': [ '1.32.0' ],
+17 silly audit   'lightningcss-linux-arm64-musl': [ '1.32.0' ],
+17 silly audit   'lightningcss-linux-x64-gnu': [ '1.32.0' ],
+17 silly audit   'lightningcss-linux-x64-musl': [ '1.32.0' ],
+17 silly audit   'lightningcss-win32-arm64-msvc': [ '1.32.0' ],
+17 silly audit   'lightningcss-win32-x64-msvc': [ '1.32.0' ],
+17 silly audit   nanoid: [ '3.3.15' ],
+17 silly audit   picocolors: [ '1.1.1' ],
+17 silly audit   picomatch: [ '4.0.5' ],
+17 silly audit   postcss: [ '8.5.16' ],
+17 silly audit   react: [ '19.2.7' ],
+17 silly audit   'react-dom': [ '19.2.7' ],
+17 silly audit   rolldown: [ '1.1.4' ],
+17 silly audit   scheduler: [ '0.27.0' ],
+17 silly audit   'source-map-js': [ '1.2.1' ],
+17 silly audit   tinyglobby: [ '0.2.17' ],
+17 silly audit   tslib: [ '2.8.1' ],
+17 silly audit   vite: [ '8.1.3' ]
+17 silly audit }
+18 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-win32-arm64-msvc
+19 silly reify mark deleted [
+19 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-win32-arm64-msvc'
+19 silly reify ]
+20 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-x64-musl
+21 silly reify mark deleted [
+21 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-x64-musl'
+21 silly reify ]
+22 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-x64-gnu
+23 silly reify mark deleted [
+23 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-x64-gnu'
+23 silly reify ]
+24 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-arm64-musl
+25 silly reify mark deleted [
+25 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-arm64-musl'
+25 silly reify ]
+26 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-arm64-gnu
+27 silly reify mark deleted [
+27 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-arm64-gnu'
+27 silly reify ]
+28 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-linux-arm-gnueabihf
+29 silly reify mark deleted [
+29 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-linux-arm-gnueabihf'
+29 silly reify ]
+30 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-freebsd-x64
+31 silly reify mark deleted [
+31 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-freebsd-x64'
+31 silly reify ]
+32 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-darwin-x64
+33 silly reify mark deleted [
+33 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-darwin-x64'
+33 silly reify ]
+34 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-darwin-arm64
+35 silly reify mark deleted [
+35 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-darwin-arm64'
+35 silly reify ]
+36 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\lightningcss-android-arm64
+37 silly reify mark deleted [
+37 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\lightningcss-android-arm64'
+37 silly reify ]
+38 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\fsevents
+39 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\fsevents' ]
+40 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-win32-arm64-msvc
+41 silly reify mark deleted [
+41 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-win32-arm64-msvc'
+41 silly reify ]
+42 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-wasm32-wasi
+43 silly reify mark deleted [
+43 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-wasm32-wasi'
+43 silly reify ]
+44 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\core
+45 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\core' ]
+46 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\runtime
+47 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\runtime' ]
+48 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@napi-rs\wasm-runtime
+49 silly reify mark deleted [
+49 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@napi-rs\\wasm-runtime'
+49 silly reify ]
+50 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\wasi-threads
+51 silly reify mark deleted [
+51 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\wasi-threads'
+51 silly reify ]
+52 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\tslib
+53 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\tslib' ]
+54 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@tybys\wasm-util
+55 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@tybys\\wasm-util' ]
+56 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-openharmony-arm64
+57 silly reify mark deleted [
+57 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-openharmony-arm64'
+57 silly reify ]
+58 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-x64-musl
+59 silly reify mark deleted [
+59 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-x64-musl'
+59 silly reify ]
+60 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-x64-gnu
+61 silly reify mark deleted [
+61 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-x64-gnu'
+61 silly reify ]
+62 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-s390x-gnu
+63 silly reify mark deleted [
+63 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-s390x-gnu'
+63 silly reify ]
+64 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-ppc64-gnu
+65 silly reify mark deleted [
+65 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-ppc64-gnu'
+65 silly reify ]
+66 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-arm64-musl
+67 silly reify mark deleted [
+67 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-arm64-musl'
+67 silly reify ]
+68 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-arm64-gnu
+69 silly reify mark deleted [
+69 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-arm64-gnu'
+69 silly reify ]
+70 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-linux-arm-gnueabihf
+71 silly reify mark deleted [
+71 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-linux-arm-gnueabihf'
+71 silly reify ]
+72 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-freebsd-x64
+73 silly reify mark deleted [
+73 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-freebsd-x64'
+73 silly reify ]
+74 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-darwin-x64
+75 silly reify mark deleted [
+75 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-darwin-x64'
+75 silly reify ]
+76 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-darwin-arm64
+77 silly reify mark deleted [
+77 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-darwin-arm64'
+77 silly reify ]
+78 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-android-arm64
+79 silly reify mark deleted [
+79 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-android-arm64'
+79 silly reify ]
+80 http cache @napi-rs/wasm-runtime@https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.6.tgz 0ms (cache hit)
+81 http cache tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz 0ms (cache hit)
+82 http cache @tybys/wasm-util@https://registry.npmmirror.com/@tybys/wasm-util/-/wasm-util-0.10.3.tgz 0ms (cache hit)
+83 silly tarball no local data for @napi-rs/wasm-runtime@https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.6.tgz. Extracting by manifest.
+84 http cache @emnapi/core@https://registry.npmmirror.com/@emnapi/core/-/core-1.11.1.tgz 0ms (cache hit)
+85 silly tarball no local data for tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz. Extracting by manifest.
+86 silly tarball no local data for @tybys/wasm-util@https://registry.npmmirror.com/@tybys/wasm-util/-/wasm-util-0.10.3.tgz. Extracting by manifest.
+87 http cache @emnapi/wasi-threads@https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.2.2.tgz 0ms (cache hit)
+88 http cache @emnapi/runtime@https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.1.tgz 0ms (cache hit)
+89 silly tarball no local data for @emnapi/core@https://registry.npmmirror.com/@emnapi/core/-/core-1.11.1.tgz. Extracting by manifest.
+90 silly tarball no local data for @emnapi/wasi-threads@https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.2.2.tgz. Extracting by manifest.
+91 silly tarball no local data for @emnapi/runtime@https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.1.tgz. Extracting by manifest.
+92 silly audit bulk request failed undefined
+93 http fetch GET https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.6.tgz attempt 1 failed with EACCES
+94 http fetch GET https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz attempt 1 failed with EACCES
+95 http fetch GET https://registry.npmmirror.com/@tybys/wasm-util/-/wasm-util-0.10.3.tgz attempt 1 failed with EACCES
+96 http fetch GET https://registry.npmmirror.com/@emnapi/core/-/core-1.11.1.tgz attempt 1 failed with EACCES
+97 http fetch GET https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.2.2.tgz attempt 1 failed with EACCES
+98 http fetch GET https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.1.tgz attempt 1 failed with EACCES
+99 verbose audit error FetchError: request to https://registry.npmjs.org/-/npm/v1/security/audits/quick failed, reason: 
+99 verbose audit error     at ClientRequest.<anonymous> (D:\NVM\nodejs\node_modules\npm\node_modules\minipass-fetch\lib\index.js:130:14)
+99 verbose audit error     at ClientRequest.emit (node:events:518:28)
+99 verbose audit error     at emitErrorEvent (node:_http_client:104:11)
+99 verbose audit error     at _destroy (node:_http_client:898:9)
+99 verbose audit error     at onSocketNT (node:_http_client:918:5)
+99 verbose audit error     at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+99 verbose audit error   code: 'EACCES',
+99 verbose audit error   errno: 'EACCES',
+99 verbose audit error   type: 'system'
+99 verbose audit error }
+100 silly audit error undefined
+101 silly audit report null
+102 http fetch GET https://registry.npmjs.org/npm attempt 2 failed with EACCES
+103 http fetch GET https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.6.tgz attempt 2 failed with EACCES
+104 http fetch GET https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz attempt 2 failed with EACCES
+105 http fetch GET https://registry.npmmirror.com/@tybys/wasm-util/-/wasm-util-0.10.3.tgz attempt 2 failed with EACCES
+106 http fetch GET https://registry.npmmirror.com/@emnapi/core/-/core-1.11.1.tgz attempt 2 failed with EACCES
+107 http fetch GET https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.2.2.tgz attempt 2 failed with EACCES
+108 http fetch GET https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.1.tgz attempt 2 failed with EACCES
+109 http fetch GET https://registry.npmjs.org/npm attempt 3 failed with EACCES
+110 http fetch GET https://registry.npmmirror.com/@napi-rs/wasm-runtime/-/wasm-runtime-1.1.6.tgz attempt 3 failed with EACCES
+111 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@napi-rs\wasm-runtime
+112 silly reify mark deleted [
+112 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@napi-rs\\wasm-runtime'
+112 silly reify ]
+113 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-wasm32-wasi
+114 silly reify mark deleted [
+114 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-wasm32-wasi'
+114 silly reify ]
+115 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\core
+116 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\core' ]
+117 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\runtime
+118 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\runtime' ]
+119 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@tybys\wasm-util
+120 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@tybys\\wasm-util' ]
+121 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\wasi-threads
+122 silly reify mark deleted [
+122 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\wasi-threads'
+122 silly reify ]
+123 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\tslib
+124 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\tslib' ]
+125 http fetch GET https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz attempt 3 failed with EACCES
+126 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\tslib
+127 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\tslib' ]
+128 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\core
+129 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\core' ]
+130 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\runtime
+131 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\runtime' ]
+132 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\wasi-threads
+133 silly reify mark deleted [
+133 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\wasi-threads'
+133 silly reify ]
+134 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@tybys\wasm-util
+135 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@tybys\\wasm-util' ]
+136 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@napi-rs\wasm-runtime
+137 silly reify mark deleted [
+137 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@napi-rs\\wasm-runtime'
+137 silly reify ]
+138 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-wasm32-wasi
+139 silly reify mark deleted [
+139 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-wasm32-wasi'
+139 silly reify ]
+140 http fetch GET https://registry.npmmirror.com/@tybys/wasm-util/-/wasm-util-0.10.3.tgz attempt 3 failed with EACCES
+141 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@tybys\wasm-util
+142 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@tybys\\wasm-util' ]
+143 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@napi-rs\wasm-runtime
+144 silly reify mark deleted [
+144 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@napi-rs\\wasm-runtime'
+144 silly reify ]
+145 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-wasm32-wasi
+146 silly reify mark deleted [
+146 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-wasm32-wasi'
+146 silly reify ]
+147 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\tslib
+148 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\tslib' ]
+149 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\core
+150 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\core' ]
+151 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\runtime
+152 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\runtime' ]
+153 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\wasi-threads
+154 silly reify mark deleted [
+154 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\wasi-threads'
+154 silly reify ]
+155 http fetch GET https://registry.npmmirror.com/@emnapi/core/-/core-1.11.1.tgz attempt 3 failed with EACCES
+156 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\core
+157 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\core' ]
+158 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@napi-rs\wasm-runtime
+159 silly reify mark deleted [
+159 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@napi-rs\\wasm-runtime'
+159 silly reify ]
+160 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-wasm32-wasi
+161 silly reify mark deleted [
+161 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-wasm32-wasi'
+161 silly reify ]
+162 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\wasi-threads
+163 silly reify mark deleted [
+163 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\wasi-threads'
+163 silly reify ]
+164 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\tslib
+165 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\tslib' ]
+166 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\runtime
+167 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\runtime' ]
+168 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@tybys\wasm-util
+169 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@tybys\\wasm-util' ]
+170 http fetch GET https://registry.npmmirror.com/@emnapi/wasi-threads/-/wasi-threads-1.2.2.tgz attempt 3 failed with EACCES
+171 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\wasi-threads
+172 silly reify mark deleted [
+172 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\wasi-threads'
+172 silly reify ]
+173 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\core
+174 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\core' ]
+175 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@napi-rs\wasm-runtime
+176 silly reify mark deleted [
+176 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@napi-rs\\wasm-runtime'
+176 silly reify ]
+177 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-wasm32-wasi
+178 silly reify mark deleted [
+178 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-wasm32-wasi'
+178 silly reify ]
+179 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\tslib
+180 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\tslib' ]
+181 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\runtime
+182 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\runtime' ]
+183 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@tybys\wasm-util
+184 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@tybys\\wasm-util' ]
+185 http fetch GET https://registry.npmmirror.com/@emnapi/runtime/-/runtime-1.11.1.tgz attempt 3 failed with EACCES
+186 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\runtime
+187 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\runtime' ]
+188 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@napi-rs\wasm-runtime
+189 silly reify mark deleted [
+189 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@napi-rs\\wasm-runtime'
+189 silly reify ]
+190 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@rolldown\binding-wasm32-wasi
+191 silly reify mark deleted [
+191 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@rolldown\\binding-wasm32-wasi'
+191 silly reify ]
+192 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\tslib
+193 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\tslib' ]
+194 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\core
+195 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\core' ]
+196 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@tybys\wasm-util
+197 silly reify mark deleted [ 'E:\\chazhendataset2\\gamefeature\\node_modules\\@tybys\\wasm-util' ]
+198 verbose reify failed optional dependency E:\chazhendataset2\gamefeature\node_modules\@emnapi\wasi-threads
+199 silly reify mark deleted [
+199 silly reify   'E:\\chazhendataset2\\gamefeature\\node_modules\\@emnapi\\wasi-threads'
+199 silly reify ]
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD
+215 silly ADD
+216 silly ADD
+217 silly ADD
+218 silly ADD
+219 silly ADD
+220 silly ADD
+221 silly ADD
+222 silly ADD
+223 silly ADD
+224 silly ADD
+225 silly ADD
+226 silly ADD
+227 silly ADD
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 verbose cwd E:\chazhendataset2\gamefeature
+232 verbose os Windows_NT 10.0.26200
+233 verbose node v22.16.0
+234 verbose npm  v10.9.2
+235 verbose exit 0
+236 info ok

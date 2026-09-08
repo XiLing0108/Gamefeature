@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+public/videos/
+public/hires-frames/
+public/clip-frames/
